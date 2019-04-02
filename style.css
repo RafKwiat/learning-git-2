@@ -14,7 +14,8 @@ body {
     height: auto;
     border: 2px solid #1f1f1f;
     align-items: center;
-    box-shadow: 1px -10px 20px #020302;  
+    box-shadow: 1px -10px 20px #020302;
+    border-radius: 10px;
 }
 h1 {
     text-align: center;
@@ -22,9 +23,10 @@ h1 {
     font-size: 45px;
     color: #fff;
 }
-p {
-    margin: auto 150px;
-    color: #F1F1F1;
+.first, .second, .third {
+    width: 400px;
+    color: #f1f1f1;
     text-align: center; 
-    padding-bottom: 50px;
+    margin: 50px auto;
+    display: block;
 }
